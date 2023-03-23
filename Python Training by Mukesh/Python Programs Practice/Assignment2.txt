@@ -1,0 +1,131 @@
+# Assignment-2
+#Date:03-10-2023
+---------------------------------------------------------------------------------------------------------
+1.What are the two values of the Boolean data type? How do you write them?
+
+The two values of the Boolean datatype are 1(True) and 0(False)
+
+---------------------------------------------------------------------------------------------------------
+
+2. What are the three different types of Boolean operators?
+
+The three different types of Boolean Operators are:AND, OR, NOT
+
+---------------------------------------------------------------------------------------------------------
+
+3. Make a list of each Boolean operator's truth tables 
+(i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+
+  AND(&) OPERATOR                OR(|)OPERATOR                   NOT(~) OPERATOR
+     TABLE                           TABLE                          TABLE
+True & True = True             True | True =True                    ~True = False
+True & False = False           True |False = False                  ~False=True
+False & True =False            False|True =True
+False & False = False          False|False =False
+
+-------------------------------------------------------------------------------------------------------------
+
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)   T and F = False
+not (5 > 4)            not True = False
+(5 > 4) or (3 == 5)     T | F =True
+not ((5 > 4) or (3 == 5))= not((T | F)) = not(T)=False
+(True and True) and (True == False) =T and F =False
+(not False) or (not True) T or F =True
+
+---------------------------------------------------------------------------------------------------------------
+
+5. What are the six comparison operators?
+Six Comparision operators are: >=, <=, >, <, ==, !=
+
+----------------------------------------------------------------------------------------------------------------
+
+6. How do you tell the difference between the equal to and assignment operators?
+Describe a condition and when you would use one.
+
+== (Equal to): is used for comparing two operands 
+=(Assignment operator):is used to assign a value to a variable
+
+(5==6) here ==(Equal to)used to check if 5 is equal to 6 ?
+x=2 here 2 is assigned to the variable x
+
+-------------------------------------------------------------------------------------------------------------------
+
+7. Write and Identify the three blocks in this code:
+
+spam = 0
+
+1.if spam == 10:       if, if else     
+print('eggs')
+
+2.if spam > 5:
+print('bacon')
+
+3.else:
+print('ham')
+
+print('spam')
+print('spam')
+------------------------------------------------------------------------------------------------------------------------
+
+8. Write code that prints Hello if 1 is stored in spam, prints Hey if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+
+spam=1
+
+if spam ==1:
+    print('Hello')
+else:
+    if spam ==2:
+    print('Hey')
+elif:
+    print('Greetings!')
+
+-------------------------------------------------------------------------------------------------------------------------
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+
+Control + C
+
+-------------------------------------------------------------------------------------------------------------------------
+
+10. How can you tell the difference between break and continue?
+
+A break statement in Python alters the flow of a loop by terminating it once a specified condition is met. 
+
+Continue: The continue statement in Python is used to skip the remaining code inside a loop for the current iteration only.
+
+-------------------------------------------------------------------------------------------------------------------------
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+for i in range(10) - i value starts from 1 to 9
+
+for i in range (0,10)- i value starts from 0 and ends at 9
+
+for i in range (0,10,1) - i value starts from 0 and is incremented by 1(everytime) till it reaches 9
+
+-------------------------------------------------------------------------------------------------------------------------
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+
+(For loop)
+
+for i in range(1,11):
+    print(i)
+
+(While Loop)
+
+i=1
+while(i<=10):
+    print(i)
+    i=i+1
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
+spam.bacon()
+
+-------------------------------------------------------------------------------------------------------------------------

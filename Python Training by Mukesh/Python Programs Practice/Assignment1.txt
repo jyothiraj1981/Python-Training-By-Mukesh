@@ -1,0 +1,113 @@
+#Assignment-1
+#Date: 03-09-2023
+----------------------------------------------------------------------------------------------------
+
+1. In the below elements which of them are values or an expression? 
+eg:- values can be
+integer or string and expressions will be mathematical operators.
+
+
+*  can be used in expressions
+'hello'  String value 
+-87.8 Float value 
+-  Expression
+/ Expression
++ Expression
+6 integer value 
+
+--------------------------------------------------------------------------------------------------------
+
+2 What is the difference between string and variable?
+
+A string consists of one or more characters, 
+which can include letters, numbers, and other types of characters. 
+
+A Variable in python is a pointer to the object
+
+---------------------------------------------------------------------------------------------------------
+
+3.Describe three different data types.
+
+A data type is a classification of data which tells the 
+interpreter how the programmer uses the data.
+
+3 different data types are :
+
+Text DataType:	str - 
+string datatype are used to represent text or characters.eg:"Hello" 
+
+Numeric DataTypes:	int, float, complex 
+ Numeric datatype is to represent numeric values eg: 5(int),6.8(float),3+4i(complex)
+
+Boolean Datatype:A Boolean data type has one of two possible values usually true and false
+eg: 1<=2 returns true 
+
+---------------------------------------------------------------------------------------------------------
+
+4.What is an expression made up of? What do all expressions do?
+
+An Expression is made up of variables,values and operators.
+All expressions are used to find out the value of variables.
+eg: x+y=100
+
+---------------------------------------------------------------------------------------------------------
+
+5.What is the difference between an expression and a statement?
+
+Expressions are made up of values variables and operators to find unknown variables.
+
+A statement is an instruction that the Python interpreter can execute. 
+
+spam = 10 where 10 is assigned to the varible spam 
+
+----------------------------------------------------------------------------------------------------------
+
+6.After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+variable bacon contain the value 23
+
+-----------------------------------------------------------------------------------------------------------
+
+7. What should the values of the following two terms be?
+
+'spam' + 'spamspam' = 'spamspamspam'
+
+'spam' * 3 ='spamspamspam'
+
+------------------------------------------------------------------------------------------------------------
+
+8.why is eggs a valid variable name while 100 is invalid?
+Variable name can start with alphabets but not with numbers 
+
+-------------------------------------------------------------------------------------------------------------
+
+9.What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+The int() , float() , and str( ) functions will be used to get the integer, floating-point number, 
+and string versions of the value passed to them.
+
+--------------------------------------------------------------------------------------------------------------
+
+10.Why does this expression cause an error? How can you fix it?
+'I have eaten' + 99 + 'burritos.'
+
+This expression causes an error because concatenation is done between the strings but not integer
+
+We can fix it by giving single quotes to num 99 ,that is converting the num as string
+
+'I have eaten' + '99' + 'burritos'
+
+--------------------------------------------------------------------------------------------------------------
+
+11.create 2 variables message and greeting and assign a values Morning and Hey. 
+Using string representation methods. i.e .format and f'strings' display the output 'Hello, Good Morning'
+
+message1 = 'Hello'
+greeting ='morning'
+print(f'{message1}, Good {greeting}')
+message2 ='Hello ,Good Morning'
+print('the display of {},{} is {}'.format(message1,greeting,message2))
+
+------------------------------------------------------------------------------------------------------------------

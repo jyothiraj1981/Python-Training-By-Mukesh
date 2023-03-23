@@ -1,0 +1,122 @@
+#Assignment -3
+Date:03-11-2023
+
+-------------------------------------------------------------------------------------------------------
+1.What is the name of this = operator?
+ Name of this operator = is Assignment operator.
+
+-------------------------------------------------------------------------------------------------------
+
+2.How to convert a digit 3.14 into a string '3.14'?
+
+Use str() to turn 3.14 into a string
+str(3.14) converts '3.14'
+
+-----------------------------------------------------------------------------------------------------------
+
+3.A car has a speed of 100 km/h. Write some code that calculates the
+distance in meters (not kilometers!) that the car would travel in N hours.
+Set N to 10.
+
+speed= 100 km = 100*10 = 1000 m
+time = 10 hrs 
+distance = x
+x = speed *time 
+print (x)
+distance = 10,000 meters
+--------------------------------------------------------------------------------------------------------------
+
+4.In Python it is possible to combine multiple strings into one.
+What is the name of this operation?
+
+String Concatenation
+
+---------------------------------------------------------------------------------------------------------------
+
+5.There is a string value = "football". You access a substring the
+following way:
+
+other_value = value[1:3].
+
+What is the name of this operation? How long is other_value?
+
+Slicing of a String; 8
+
+What is the index of the first character in a string?
+
+The index of first character in a string is 0
+---------------------------------------------------------------------------------------------------------------
+
+6.There is a mathematical function f(x,y) = x^y + 100.
+Implement the function in Python.
+
+Which function definitions are valid?
+
+1. @foo(bar): No
+2. _foo(bar = 1):  No
+3. foo(bar = 2, bla = 1): Yes
+4. foo(bar = 2, bla):  Yes
+5. foo($bar, bla = 1):  No
+-----------------------------------------------------------------------------------------------------------------
+7.Change and rewrite the function below to return the greeting instead of printing it:
+
+def hi(): greeting = "Hello world!!!"print(greeting)
+
+def hi():
+    greeting = "Hello world!!"
+    return greeting 
+
+------------------------------------------------------------------------------------------------------------------
+
+8.Write an expression that tests if a variable x is less than or equal to 100.
+
+ print(x<=100) or x<=100
+
+------------------------------------------------------------------------------------------------------------------
+
+9.Write an expression that tests if a variable x is between 3 and 10, inclusive.
+ (num=3) and (num<=10)
+          or
+ print((num=3) and (num<=10))
+
+--------------------------------------------------------------------------------------------------------------------
+
+10.Write an expression that tests if a variable is even or a multiple of 5.
+
+num = int(input("Enter a number: ")) 
+
+def even(num):
+    count = num % 2 
+    if count > 0: 
+        print("This is an odd number. ") 
+    else: 
+        print("This is an even number. ")
+
+def multiple(n):
+   count=n%5
+    if (count==0):
+        print(n is multiple of 5)
+    else:
+         print(n is not muliple of 5)
+
+even(6)
+multiple(25)
+---------------------------------------------------------------------------------------------------------------------
+
+There is a function with the following declaration: person_is_old(age) which
+returns True or False based on the incoming age as an integer.
+Write a function that uses the one mentioned above so that it prints "Go to
+work!" if the person is not old and "You deserved to have a long vacation"
+otherwise. Your function must also accept the age as its argument.
+
+def person_is_old(age):
+	if (age<=60):
+		#return True
+		print("Go to work")
+	else:
+		#return False
+		print("You deserved to have a long vacation")
+
+person_is_old(57)
+person_is_old(70)
+
